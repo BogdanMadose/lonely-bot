@@ -5,7 +5,6 @@ module.exports = async (client, oldMember, newMember) => {
   // If the guild has music playing
   const serverQueue = client.musicQueue.get(guild.id);
   if (!serverQueue) {
-    console.log("Could not find serverQueue");
     return;
   }
 

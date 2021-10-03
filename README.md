@@ -62,6 +62,7 @@ TypeScript is used for the bot for better code checking, and documentation. You 
 | `lint`    | Runs eslint on all TypeScript files, and fixes them if possible |
 | `prepare` | Installs husky scripts for git hooks                            |
 | `start`   | Compiles the code and starts the bot                            |
+| `dev`     | Runs the TypeScript code using `ts-node`                        |
 | `test`    | Run tests inside test folder                                    |
 
 ### Cool Facts

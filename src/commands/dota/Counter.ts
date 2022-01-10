@@ -25,7 +25,7 @@ export default class Counter extends Command {
   visible = true;
   description = "Returns a list of top counters to given heroes";
   information = information;
-  aliases = [];
+  aliases = [c];
   args = true;
   usage = "[enemy_1], [enemy_2] ...";
   example = "am, venge, lone druid";
